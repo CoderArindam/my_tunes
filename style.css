@@ -121,7 +121,13 @@ nav ul li {
 .ipad_iphone_img {
     position: relative;
     top: 40rem;
-    margin-top: -40rem;
+    margin-top: -35rem;
+    animation: bouncing 1s infinite;
+}
+@keyframes bouncing{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(0);}
 }
 
 button {
