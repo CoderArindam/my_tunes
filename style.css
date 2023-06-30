@@ -372,13 +372,26 @@ footer {
 }
 
 @media(max-width:550px) {
-    .ipad_iphone_img {
-        margin-top: -20rem;
-        top: 20rem;
+
+    html{
+        font-size: 35%;
     }
 
+    .hero_section{
+        padding: 0 1rem;
+    }
+    .ipad_iphone_img {
+        margin-top: -16rem;
+        top: 20rem;
+        padding: 0 1rem;
+    }
+
+    .music_section .container{
+        padding: 0 1rem;
+    }
     .about_music .container {
         margin-top: 23rem;
+        padding: 0 1rem;
     }
 
     .gift_card .container {
@@ -399,6 +412,7 @@ footer {
         margin-bottom: -50px;
         justify-content: center;
         align-items: center;
+        padding: 0 1rem;
     }
 
     .video_section {
