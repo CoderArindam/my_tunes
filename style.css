@@ -18,7 +18,8 @@ body {
 
 }
 
-ul {list-style: none;
+ul {
+    list-style: none;
 }
 
 a {
@@ -124,10 +125,19 @@ nav ul li {
     margin-top: -35rem;
     animation: bouncing 1s infinite;
 }
-@keyframes bouncing{
-    0%{transform: translateY(0);}
-    50%{transform: translateY(-20px);}
-    100%{transform: translateY(0);}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 button {
@@ -158,9 +168,11 @@ button:hover {
 .read_more {
     background-color: #37008E;
 }
+
 .mac_image {
     padding: 10px;
 }
+
 section {
     scroll-margin: 8rem;
 }
@@ -224,7 +236,7 @@ section {
 
 .gift_card img {
     transition: 0.15s ease-in-out;
-    padding:0 1.5rem;
+    padding: 0 1.5rem;
 }
 
 .reedem {
@@ -294,31 +306,33 @@ footer {
 }
 
 
-@media(max-width:1024px){
-  
-    .ipad_iphone_img img{
+@media(max-width:1024px) {
+
+    .ipad_iphone_img img {
         margin-top: -2rem;
-        top:50rem;
+        top: 50rem;
         max-width: 100%;
     }
 
-    .mac_image img{
+    .mac_image img {
         max-width: 100%;
     }
 
     .about_music .container {
-        margin-top: 45rem;}
+        margin-top: 45rem;
+    }
 
-    .gift_card img{
-        max-width:40rem
+    .gift_card img {
+        max-width: 40rem
     }
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
 
-    html{
-        font-size: 40% ;
+    html {
+        font-size: 40%;
     }
+
     nav ul {
         display: none;
     }
@@ -328,7 +342,8 @@ footer {
     }
 
     .about_music .container {
-        margin-top: 43rem;}
+        margin-top: 43rem;
+    }
 
     .link_lists .container {
         display: grid;
@@ -344,9 +359,9 @@ footer {
     }
 }
 
-.ipad_iphone_img img{
+.ipad_iphone_img img {
     margin-top: -2rem;
-    top:50rem;
+    top: 50rem;
     max-width: 100%;
 }
 
@@ -356,136 +371,39 @@ footer {
     }
 }
 
-@media(max-width:550px){
-    .ipad_iphone_img{
+@media(max-width:550px) {
+    .ipad_iphone_img {
         margin-top: -20rem;
-        top:20rem;
+        top: 20rem;
     }
+
     .about_music .container {
-        margin-top: 23rem;}
-    .gift_card .container{
-        flex-direction:column;
+        margin-top: 23rem;
     }
-    .gift_card img{
+
+    .gift_card .container {
+        flex-direction: column;
+    }
+
+    .gift_card img {
         max-width: 100%;
     }
-    
+
     .menu_bar {
         font-size: 2.4rem;
     }
 
-    .video_section .container{
+    .video_section .container {
         position: relative;
-        bottom:90px;
-       margin-bottom: -50px;
+        bottom: 90px;
+        margin-bottom: -50px;
         justify-content: center;
         align-items: center;
     }
-    .video_section{
+
+    .video_section {
         position: relative;
 
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media(max-width:px){
-    nav{
-        padding: 10px 10px;
-    }
-    nav ul{
-        font-size: 14px;
-        gap: 8px;
-        
-    }
-    nav .mytunes{
-        font-size: 20px;
-    }
-.hero_section .container{
-    display: flex;
-    padding: 0 15px;
-}
-.hero_section{
-    background-image:url(images/hero_image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    display: grid;
-    color: white;
-    place-items: center;
-    text-align: center;
-}
-.hero_section h1{
-    font-size:48px;
-}
-
-.hero_section h3{
-    font-size:16px;
-}
-
-.music_section .container{
-    gap: 10px;
-    padding-top: 10px;
-    margin-top: -40px;
-    padding-bottom: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    
-}  
-
-.music_section{
-    padding-bottom: 40px;
-}
-.ipad_iphone_img img{
-    max-width: 40vh;
-    padding: 30px;
-    margin-top: 10px;
-}
-.about_music .container{
-    display: flex;
-    flex-direction: column;
-    padding: 0 15px;
-}
-
-.about_music{
-    margin-top: -110px;
-}
-.mac_image img{
-    max-width: 40vh;
-}
-.video_section .container{
-    margin-top: -550px;
-    padding: 0 15px;
-}
-.background_video video{
-    max-width: 50vh;
-}
-.gift_card .container{
-    flex-direction: column;
-    align-items: center;
-    margin-top: 200px;
-    padding: 0 15px;
-    
-}
-.gift_card img{
-    max-width: 40vh;
-}
-.link_lists .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    padding: 30px 0px;
-   
-}
-} */
